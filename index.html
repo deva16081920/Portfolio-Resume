@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Creative Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+        }
+
+        #header1 {
+            background-color: #333;
+            padding: 30px 150px;
+            margin-left: 200px;
+            text-align: center;
+            color: rgb(250, 245, 245);
+        }
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 150px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: rgb(249, 246, 246);
+            text-decoration: none;
+            padding: 10px 35px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+        a:hover {
+            background-color: #eeeff4;
+            color:blue
+        }
+        a{
+            color:blue
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .project-item {
+            width: 48%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-item:hover {
+            transform: scale(1.05);
+        }
+
+        .project-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="photo1.jpg" >
+        <div id="header1">
+            <h1>DEVADHARSHINI R</h1>
+            <p>Web Developer</p>
+        </div>
+        
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skill</a>
+        <a href="#educations">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#part">Participations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Devadharshini R,currently pursuing MCA at Kongu Engineering College. My strength  is my Self-Confidence.
+             My weakness is Fear of Hearing Public Speak. My goal is to get into a good reputed company.
+            My Objective, To work with maximum potential in a challenging and dynamic environment, 
+            with an opportunity of working with diverse groups of people and enhancing my professional skills with learning and experience for career growth.</p>
+    </section>
+
+    <section class="skills">
+        <div>
+            <h1>Skills</h1>
+            <P>⭐  Team Work</P>
+            <p>⭐  Open-mindedness</p>
+            <p>⭐  Creative Thinking</p>
+            <p>⭐  Problem Solving</p>
+            <p>⭐  Leadership skill</p>
+            <p>⭐  Quick Learner</p>
+        </div>
+        <div>
+            <h1>Techincal Skills</h1>
+            <P><b>Algorithm :</b>DSA</P>
+            <p><b>Languages :</b> Java(beginner), C(beginner), Python</p>
+            <p><b>Web Technologies :</b>HTML, JAVASCRIPT ,REACT , NODEJS</p>
+            <p><b>Server :</b>SQL</p>
+        </div>
+
+    </section>
+
+    
+
+    <section id="educations">
+        <h2>Education</h2>
+        <div class="project">
+            <div class="project-item">
+                <h3>Bachelor Degree</h3>
+                <p>I Have Completed my Bsc-CT as my UG degree at <b>KONGU ENGINEERNG COLLEGE</b> with 78%.</p>
+            </div>
+            <div class="project-item">
+                <h3>HSC</h3>
+                <p>I Completed my HSC at <b>GREEN GARDEN MATRIC HIGHER SECONDARY SCHOOL</b>, Perundurai.</p>
+            </div>
+            <div class="project-item">
+                <h3>AISSE</h3>
+                <p>I Completed my AISSE at <b>NANDHA CENTRAL SCHOOL(CBSE)</b>, Perundurai.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-item">
+                <img src="chatbot.jpg" alt="Project 1" class="project-img">
+                <h3>AI Powered ChatBot</h3>
+                <p>For knowing About the disease of Cancer ,Chatbot had been created and additional feature here it display the content with an image.Used here is REACT, FLASK and  MONGODB</p>
+            </div>
+            <div class="project-item">
+                <img src="timer.jpg" alt="Project 2" class="project-img">
+                <h3>StartTimer and StopTimer</h3>
+                <p>Small project using HTML, CSS and JAVASCRIPT.</p>
+            </div>
+            
+        </div>
+    </section>
+    <section id="part">
+        <div>
+            <h1>Participations</h1>
+            <P>⭐  Won Second Price(with Cash) in Ideathon at Kongu Engineering College, Perundurai</P>
+            <p>⭐  Got Participation certificate in Paper Presentation at SNS Engineering College, Coimbatore</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: snehadeva14@gmail.com</p>
+        <p>Phone: (+91) 9361444154</p>
+        <a href="https://www.linkedin.com/in/devadharshini-r-711435298">LinkedIn Id</a>
+        <p></p>
+        <a href="https://github.com/deva16081920">GitHub</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Devadharshini.</p>
+    </footer>
+
+</body>
+</html>
